@@ -74,12 +74,14 @@ So we have to have a section with `id` = `about`, like shown below:
 `<section id="about">`  
 
 We include all the sections inside the `<main>`, as shown below:
-`<main>   
+```
+<main>   
     <section id="about">  
         .......  
     </section>  
     <section id="skills>  
         .......  
     </section>  
-</main>`  
+</main>
+``` 
 
