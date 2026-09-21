@@ -1,0 +1,87 @@
+/* Universal selector (*) used*/
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #b6b1a1;
+}
+
+/* ID selector (#) used*/
+#main-title
+{
+    color: darkblue;
+    text-align: center;
+}
+
+/* Element selector (h2) used*/
+h2
+{
+    color: darkgreen;
+    text-transform: capitalize;
+}
+
+h3
+{
+    background-color: lightgray;
+}
+
+/* Class selector (.) used*/
+.intro
+{
+    color:  blue;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+p
+{
+    color: darkred;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.Skills
+{
+    font-size: 18px;
+    color: rgb(233, 10, 10);
+    
+}
+
+/* Same HTML attribute with multiple class for multiple styles*/
+.content
+{
+    font-size: 26px;
+}
+
+.highlight
+{
+    background-color: yellow;
+    font-weight: 700;
+    width: 50%;
+    text-transform: uppercase;
+
+}
+
+section
+{
+    padding: 20px;text-decoration: none;
+    margin: 10px;
+    border: 1px solid #000000;
+    background-color: #da9898;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: #63c507;
+    font-size: 36px;
+}
+
