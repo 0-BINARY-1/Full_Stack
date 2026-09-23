@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Box Model</title>
+        <link rel="stylesheet" href="boxstyle.css">
+    </head>
+    <body>
+        <h1>Box Model</h1>
+        <p>The box model is a fundamental concept in web design and development that describes how elements 
+            are rendered on a web page. It consists of four main components:</p>
+        <ol>
+            <li>MARGIN</li>
+            <li>BORDER</li>
+            <li>PADDING</li>
+            <li>CONTENT</li>
+        </ol>
+        <pre>
+            Note: We don't need to specify all the margin for top, right, bottom and left. We can specify the margin in one line.
+            For example, if we want to set the margin as 10px, 20px the these margins will
+            apply as top and bottom margin = 20px and left and right margin = 10px.
+        </pre>
+        <section class="box-model">
+            <h2>Box Model Diagram</h2>
+        <pre>
+            ┌──────────────────────────────────────┐
+            │              MARGIN                  │
+            │  ┌────────────────────────────────┐  │
+            │  │            BORDER              │  │
+            │  │  ┌──────────────────────────┐  │  │
+            │  │  │         PADDING          │  │  │
+            │  │  │  ┌────────────────────┐  │  │  │
+            │  │  │  │      CONTENT       │  │  │  │
+            │  │  │  └────────────────────┘  │  │  │
+            │  │  └──────────────────────────┘  │  │
+            │  └────────────────────────────────┘  │
+            └──────────────────────────────────────┘
+        </pre>
+        </section>
+        <section class="s1">
+            <h2>Box Model Section with Padding</h2>
+            <p>
+                In this section i have added padding to the box model.
+                The padding is of 50px. and border solid black of 2 px.
+                The margin is of 50px and auto representing (top, bottom) and 
+(left, right) respectively.
+Used the fonts: 
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 16px;
+                color: #333;
+            </p>
+        </section>
+        <section class="s2">
+            <h2>Box Model Section without Padding</h2>
+            <p>
+                In this section i have not added padding to the box model.
+                The border is dashed dark blue of 4 px. The margin is of 20px,
+                30px, 10px and 40px representing top, right, bottom and left respectively.
+                The margin is the space outside the border that
+                Used the fonts:
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                color: #333;
+
+            </p>
+        </section>
+        <section class="s3">
+            <h2>Box Model Section with Padding</h2>
+            <p>
+                In this section i have added padding to the box model.
+                The padding is of 50px. and border dotted black of 6 px.
+                The margin is of auto. Top, left, right and bottom are 
+                set to auto.
+                Used the fonts:
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 16px;
+                color: #333;
+            </p>
+        </section>
+        <section class="centerbox">
+            <h1>Box in the center</h1>
+            <p>This is the box content.</p>
+        </section>
+        <section id="about" class="card">
+
+    <h3>About Me</h3>
+
+    <p>
+        Hello! My name is Santosh.
+        I am learning web development and building my own website.
+    </p>
+    <img src="./images/bb.PNG" alt="Profile Picture" class="profile-image">
+
+</section>
+        
+    </body>
+</html>

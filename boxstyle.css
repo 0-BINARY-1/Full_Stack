@@ -1,0 +1,74 @@
+*
+{
+    box-sizing: border-box
+}
+h1
+{
+    color: darkblue;
+    text-align: center;
+}
+h2
+{
+    color: darkgreen;
+    text-align: center;
+}
+pre
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box-model
+{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightskyblue;
+}
+.s1
+{
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    background-color: rgb(250, 250, 104);
+    padding: 50px;
+    margin: 50px auto;
+}
+.s2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px dashed rgb(1, 26, 138);
+    background-color: beige;
+    /*left, top, right, bottom*/
+    margin: 20px 30px 10px 40px;
+    
+}
+.s3
+{
+    font-family: 'Courier New', Courier, monospace;
+    border: 6px dotted rgb(255, 0, 0);
+    background-color: beige;
+    padding: 50px;
+    margin: auto;
+}
+.centerbox
+{
+    border: 2px dotted orange;
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+.card
+{
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border: 2px solid #333;
+    background-color: rgb(4, 247, 255);
+}
+.profile-image
+{
+    width: 200px;
+    padding: 30px;
+    border: 2px solid #333;
+}
+
