@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>CSS Positioning</title>
+        <link rel="stylesheet" href="CSSPosition.css">
+    </head>
+    <body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+        <a href="#service">service</a>
+    </nav>
+        <p>There are five important position values. They are:</p>
+        <ol>
+            <li>static</li>
+            <li>relative</li>
+            <li>absolute</li>
+            <li>fixed</li>
+            <li>sticky</li>
+        </ol>
+        <p>By default the positon is static.</p>
+        <h1>Static Positioning</h1>
+        <div class="A">Static Box<p class="A1">This box have static position by default</p></div>
+        <h1>Relative Positioning</h1>
+        <div class="B">Static Box 1<p class="B1">This box have stativ position which I setted.</p></div>
+        <div class="Br">Relative Box<p class="B1r">This box have relative position to static box 1.</p></div>
+        <h1>Absolute Positioning</h1>
+        <div class="parent">
+            <p>This is the parent section content.</p>
+            <div class="child">
+                <p>
+                This is  where relative and absolute are commonly used together. The element is positioned 
+                relative to its nearest positioned ancestor by removing the element from the normal document 
+                flow.
+                </p>
+            </div>
+        </div>
+        <h1>Fixed Position</h1>
+        <p>The content remain in that position even when scrolled like it is glued to that position of the 
+            display screen. The contact button in fixed position.</p>
+        <button class="contact-button">Contact Me</button>
+
+        <h1>Sticky position</h1>
+        <p>Sticky behaves like a normal element until you scroll to a certain position. Then it sticks to the specified position.Like 
+            at the top the navigatio bar is sticking to its place even we scroll. 
+        </p>
+    </body>
+</html>

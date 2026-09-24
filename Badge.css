@@ -1,0 +1,26 @@
+.profile
+{
+    background-color: aqua;
+    position: relative;
+    width: 200px;
+    height: 70px;
+
+}
+.profile img
+{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    display: block;
+
+}
+.status
+{
+    position:absolute;
+    right: 5px;
+    bottom: 5px;
+    padding: 5px 10px;
+    background-color: green;
+    color: whitesmoke;
+}
