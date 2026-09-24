@@ -1,0 +1,22 @@
+nav a
+{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 124, 124);
+}
+.d1
+{
+    background-color: aquamarine;
+}
+.skill-card
+{
+    display: inline-block;
+    width: 250px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    vertical-align: left;
+}

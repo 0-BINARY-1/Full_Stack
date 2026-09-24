@@ -1,0 +1,29 @@
+.box
+{
+    display:inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+}
+span
+{
+    color: red;
+    font-weight: bold;
+}
+.boxed
+{
+    background-color: lightblue;
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+}
+.e{
+    background-color: blanchedalmond;
+    display: inline-block;
+    width: 100px;
+    width: 100px;
+
+}
