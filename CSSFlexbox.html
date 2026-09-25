@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Flexbox</title>
+        <link rel="stylesheet" href="cssflexbox.css">
+    </head>
+    <body>
+        <h1>CSS Flexbox Intro</h1>
+        <p>This is CSS layout system used to arrange elements in rows and columns. It is useful for:</p>
+        <ol>
+            <li>Navigation bars</li>
+            <li>Cards</li>
+            <li>Menus</li>
+            <li>Aligning content</li>
+            <li>Centering elements</li>
+            <li>Creating responsive layouts</li>
+        </ol>
+        <p>Normally, HTML elements appear one after another. We can control how elements are arranged.</p>
+
+        <h1>Basic FlexBox Example</h1>
+        <p>We can set flex direction like row, column, reverse row and column.</p>
+        <pre>
+            A. flex-Direction: Row, Column, Reverse-Row, Reverse-column 
+            B. justify-content: controls the arrangement along the main axis. So item inside any container
+            udmoves to center of that container  horizontally.
+
+            Common values of justify content:
+                1. justify-content: flex-start;
+                2. justify-content: flex-end;
+                3. justify-content: center;
+                4. justify-content: space-between;
+                5. justify-content: space-around;
+                6. justify-content: space-evenly;
+            C. align-items: This controls alignment on the cross axis.
+            D. gap: Instead of margin we can use gap between flex items.
+        </pre>
+        <div class="container">
+            <div class="box">HTML</div>
+            <div class="box">CSS</div>
+            <div class="box">JavaScript</div>
+        </div>
+
+    </body>
+</html>
