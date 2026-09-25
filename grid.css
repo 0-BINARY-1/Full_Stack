@@ -1,0 +1,30 @@
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 150px 150px;
+    grid-column: span 2;
+    gap: 20px;
+    row-gap: 40px;
+    column-gap: 30px;
+
+}
+.grid-item
+{
+    padding: 30px;
+    border: 1px solid black;
+    background-color: rgb(254, 254, 254);
+}
+.featured
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    row-gap: 40px;
+}
+.grid-i
+{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(244, 244, 244);
+}

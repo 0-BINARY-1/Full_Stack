@@ -1,0 +1,26 @@
+body
+{
+    background-color: rgb(229, 231, 233);
+}
+
+h1
+{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(64, 127, 245);
+}
+.gallery-container
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 330px 330px 330px;
+    gap: 20px;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+img
+{
+    width: 330px;
+    height: 330px;
+    background-color: blanchedalmond;
+}

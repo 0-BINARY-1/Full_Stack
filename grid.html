@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="grid.css">
+    </head>
+    <body>
+        <h1>CSS Grid</h1>
+        <p>Here we will learn how photo gallery are made.
+            <pre>
+            Flex: 1-D layout (row only or column only)
+            Grid: 2-D layout (row and column)
+            </pre>
+        </p>
+        <p>Below each box is 1fr. 'fr' means fraction.
+            <pre>
+                <b>Syntax:</b>
+                grid-tamplate-columns = 1fr 1fr 1fr.
+                1fr = 1 fraction of the available space(single fraction take 100% of available space) = 1fr;
+                2fr = 2 fraction of the available space(2 fractions take 50%-50 % of available space) = 1fr 1fr;
+                3fr = 3 fraction of the available space(3 fractions take (33.333%) of available space) = 1fr 1fr 1fr;
+                <h3>Different ratio fractions</h3>
+                <p>1fr 2fr: Teh available space is divided into 3 fractions but one fracetion have 33 %of 100% and the 
+                    other have 67% of the 100%. 
+                </p>
+                Shortcut to define different fractins:
+                grid-template-columns: repeat(3, 1fr); means create 3 1 fraction columns
+                <h3>Making the grid responsive</h3>
+                <b>Syntax:</b>
+                <p>grid-template-columns: repeat(auto-fit, minmax(250px,1fr));</p>
+            </pre>
+        </p>
+        <div class="grid-container">
+            <div class="grid-item">C Programming</div>
+            <div class="grid-item">HTML</div>
+            <div class="grid-item">CSS</div>
+            <div class="grid-item">JavaScript</div>
+            <div class="grid-item">Git</div>
+            <div class="grid-item">Python</div>
+        </div>
+        <div class="featured">
+            <p class="grid-i">HTML + CSS + JavaScript</p>
+            <p class="grid-i">HTML + CSS + JavaScript</p>
+            <p class="grid-i">HTML + CSS + JavaScript</p>
+            <p class="grid-i">HTML + CSS + JavaScript</p>
+        </div>
+    </body>
+</html>
