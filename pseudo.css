@@ -1,0 +1,68 @@
+button
+{
+    border: 2px solid gray;
+    background-color: rgb(244, 243, 243);
+    /*transition: 1.0s;*/
+}
+button:hover
+{
+    background-color: rgb(9, 0, 0);
+    color: white;
+    /*margin-top: 300px;
+    margin-left: 200px;*/
+    transition: 0.3s;
+}
+a:hover
+{
+    color: rgb(250, 250, 250);
+}
+button:active
+{
+    transform: scale(0.95);
+}
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+}
+a:visited
+{
+    color: purple;
+}
+li:first-child
+{
+    font-weight: bold;
+}
+li:last-child
+{
+    color: red;
+}
+li:nth-child(2)
+{
+    color: blue;
+}
+li:nth-child(odd)
+{
+    background-color: #f2f2f2;
+}
+li:nth-child(even)
+{
+    background-color: #fe9393;
+}
+p::first-letter
+{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+p::first-line
+{
+    font-weight: bold;
+}
+b::before
+{
+    content: "★ "
+}
+b::after
+{
+    content: " ★"
+}

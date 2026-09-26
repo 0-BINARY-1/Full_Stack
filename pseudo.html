@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo CSS</title>
+    <link rel="stylesheet" href="pseudo.css">
+</head>
+<body>
+    <p>Pseudo-classes to select element based on a special condition or state. This is the random paragraph content.
+        Now I will show you what this first line does.
+    </p>
+    <p>Pseudo-elements to allow styling a specific part of an element.</p>
+    <pre>
+        <b>pseudo-classes</b>
+        hover: to add effects when the mouse is hovered over the respective object. 
+        active: adds effects when the element is being activated, such as clicking.
+        focus: important for form inputs to highlight the area where the input is 
+               being done.
+        visited: It specify/indicate that the user has already visited.
+
+        first-child: to apply css to the first element of the list.
+        last-child: to apply css to the last element of the list.
+        nth-child(n): n=2,3,4,.... to apply the css to specified position element.
+        nth-child(odd): to edit the odd position element. Suitable to format table.
+        nth-child(even): to edit the even position elements. Important during table formatting.
+        
+        <b>pseudo-elements</b>
+        ::first-letter: to apply css to the first letter of the specified html element content.
+        ::first-line: to apply the css to the first line of the content.
+        ::before: to place generated content before the content of html elements.
+        ::after: to place generated content after the content of html elements.
+
+        <h1>All pseudo elements</h1>
+        <pre>
+Pseudo-classes
+│
+├── :hover       → Mouse over
+├── :active      → Being activated/clicked
+├── :focus       → Input is selected
+├── :visited     → Link has been visited
+├── :first-child → First child
+├── :last-child  → Last child
+└── :nth-child() → Specific child
+
+Pseudo-elements
+│
+├── ::before      → Content before
+├── ::after       → Content after
+├── ::first-letter
+└── ::first-line
+        </pre>
+
+    </pre>
+    <button><a href="https://www.youtube.com">YouTube</a></button>
+    <br><br>
+    <form action="submit">
+        <input type="text" placeholder="Enter Your Name"><br><br>
+        <input type="text" placeholder="Age"><br><br>
+    </form>
+    <button><a href="https://www.facebook.com">YouTube</a></button>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <ol>
+        <li>Bhawana</li>
+        <li>Santosh</li>
+        <li>Niraj</li>
+        <li>Laxmi</li>
+        <li>Kriti</li>
+        <li>Sanjay</li>
+        <li>Janaki</li>
+        <li>Damber</li>
+    </ol>
+</body>
+</html>
