@@ -1,0 +1,20 @@
+button
+{
+    background-color: lightblue;
+    color: rgb(12, 12, 12);
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+}
+button:hover
+{
+    background-color: rgb(62, 65, 233);
+}
+h1
+{
+    color: blueviolet;
+}
+pre
+{
+    color: darkred;
+}
