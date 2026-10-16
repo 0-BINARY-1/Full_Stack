@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  padding: 25px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+h1 {
+  color: #174a7e;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  color: white;
+  background-color: #174a7e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  line-height: 1.8;
+}

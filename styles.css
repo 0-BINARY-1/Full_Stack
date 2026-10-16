@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f6fc;
+}
+
+h1 {
+    color: #234e8a;
+}
+
+button {
+    padding: 10px 16px;
+    background-color: #234e8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#profile {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    line-height: 1.8;
+}
