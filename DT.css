@@ -1,0 +1,15 @@
+body
+{
+    background-color: rgb(183, 202, 236);
+}
+div
+{
+    font-size: 20px;
+    background-color: aqua;
+    
+}
+#result
+{
+    color: black;
+    width: 600px;
+}
