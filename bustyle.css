@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #173f70;
+}
+
+button {
+    padding: 10px 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1769aa;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #104b7a;
+}
+
+.search-box {
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    max-width: 180px;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eef5fc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.student {
+    padding: 10px;
+    margin: 8px 0;
+    background-color: white;
+    border-radius: 5px;
+}
