@@ -1,0 +1,77 @@
+body
+{
+    background-color: rgb(240, 239, 239);
+}
+.intro
+{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+#a
+{
+    color: rgb(176, 176, 176);
+    font-weight: bold;
+}
+#b
+{
+    color: rgb(109, 108, 108);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#grid1
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+#g1
+{
+    background-color: rgb(225, 225, 225);
+    width: 100px;
+    border-radius: 13px;
+    padding: 5px;
+    text-align: center;
+}
+#e
+{
+    background-color: rgb(3, 74, 52);
+    color: white;
+    width: 100px;
+    border-radius: 13px;
+    padding: 5px;
+    text-align: center;
+}
+#grid2
+{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+#Info
+{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 180px;
+    border-radius: 13px;
+    padding: 5px;
+    text-align: left;
+}
+#inside
+{
+    background-color: rgb(167, 245, 220);
+    width: 80px;
+    border-radius: 8px;
+
+}
+#in
+{
+    text-align: center;
+    padding: 5px;
+    
+}
+.info
+{
+    background-color: white;
+}
+#x{
+    color: rgb(140, 139, 139);
+}

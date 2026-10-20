@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="final.css">
+  <script src="final.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Student Dashboard</h1>
+    <p>Manage student records easily</p>
+  </header>
+
+  <main>
+    <section class="stats">
+      <div class="stat-card">
+        <h3>Total Students</h3>
+        <p id="totalStudents">0</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>Average Marks</h3>
+        <p id="averageMarks">0</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Add a Student</h2>
+
+      <form id="studentForm">
+        <label for="name">Student Name</label>
+        <input id="name" type="text"
+               placeholder="Enter student name" required>
+
+        <label for="course">Course</label>
+        <input id="course" type="text"
+               placeholder="Enter course name" required>
+
+        <label for="marks">Marks (0–100)</label>
+        <input id="marks" type="number"
+               min="0" max="100" required>
+
+        <button type="submit">Add Student</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Student Records</h2>
+
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Search by student name..."
+        aria-label="Search students"
+      >
+
+      <ul id="studentList"></ul>
+      <p id="emptyMessage">No students found.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Student Dashboard — JavaScript Capstone Project</p>
+  </footer>
+</body>
+</html>
