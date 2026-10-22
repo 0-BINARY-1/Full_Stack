@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Student management</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link rel="stylesheet" href="estyle.css">
+    </head>
+    <body>
+        <main class="page">
+            <!-- Hero -->
+            <section class="card hero">
+            <p class="eyebrow">Student Management</p> 
+            <h1>Manage studentrecords and information</h1>
+            <p class="subtitle">Keep enrollment, parent links, emergency details, and status tidy in one place. </p>
+            <div class="action">
+                <div class="dropdown" id="exportDropdown">
+                    <button class="btn btn-pill" id="exportBtn" aria-haspopup="true" aria-expanded="false">
+                        Export as <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <ul class="dropdown-menu" id="exportMenu" hidden>
+                        <li><button data-export="csv">CSV</button></li>
+                        <li><button data-export="json">JSON</button></li>
+                    </ul>
+                </div>
+                <button class="btn btn-pill" id="bulkUploadBtn">Bulk Upload</button>
+                <input type="file" id="bulkUploadInput" accept=".csv" hidden />
+                <button class="btn btn-pill" id="bulkEnrollBtn">
+                    <i class="fa-solid fa-users"></i>Bulk Enroll
+                </button>
+                <button class="btn btn-pill" id="promoteBtn">
+                    <i class="fa-solid fa-arrow-up"></i>Promote Students
+                </button>
+                <button class="btn btn-primary" id="addStudentBtn">
+                    <i class="fa-solid fa-plus"></i> Add Student
+                </button>
+            </div>
+            </section>
+        </main>
+    </body>
+</html>

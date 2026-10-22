@@ -1,0 +1,67 @@
+:root {
+    --bg: #f3f5f9;
+    --card: #ffffff;
+    --ink: #111827;
+    --muted: #6b7280;
+    --eyebrow: #94a3b8;
+    --radius-lg: 32px;
+}
+
+* {
+    box-sizing: border-box; margin:0; padding: 0;
+}
+
+body {
+    font-family: "Montserrat", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.4;
+}
+.page {
+    /*background-color: grey;*/
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 24px 28px 64px;
+    display: grid;
+    gap: 22px;
+}
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+/* Hero */
+.hero {border-radius: var(--radius-lg); padding: 52px 32px 32px; }
+.eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--eyebrow);
+    margin-bottom: 28px;
+}
+.hero h1 {
+    font-size: clamp(28px,4.2vw, 48px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+.subtitle { color: var(--muted); margin-top: 22px; font-size: 17px}
+.action { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 36px; align-items: center; }
+
+/* Buttons */
+.btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap:  10px;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: #fafbfc;
+    color: var(--ink);
+    padding: 14px 22px;
+    border-radius: 999px;
+    transition: transform 0.15s, background 0.15s, box-shadow 0.15s;
+}
+.btn:hover { background: #f1f4f8; transform: translateY(-1px);}
